@@ -1,0 +1,32 @@
+.custom-sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+  margin-left: 20px; /* Soldan boşluk */
+}
+
+.custom-sidebar a {
+  display: block;
+  padding: 4px 0;
+  color: #065e63;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.custom-sidebar a:hover {
+      border-color: #F48A32;
+      color: #F48A32;
+}
+
+.sidebar-section {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-divider {
+  border: none;
+  height: 2px;
+  background-color: #00373A; /* Bootstrap'ın varsayılan gri tonu */
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}

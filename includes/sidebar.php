@@ -1,8 +1,18 @@
-<aside class="custom-sidebar p-3 pt-0 m-0" style="width: 260px; min-height: 100vh; background-color: #f8f9fa; margin-top: -10px;">
-  <div class="sidebar-section">
-    <h6 class="text-uppercase text-muted mb-2">All Tools</h6>
+<aside class="custom-sidebar p-3 pt-0 m-0 text-center" style="width: 260px; min-height: 100vh; background-color: #f8f9fa; margin-top: -10px;">
+  
+  <!-- Logo - Centered -->
+  <div class="mb-4 mt-2">
+    <a href="/index.php">
+      <img src="../../assets/img/logo.png" alt="Logo" class="img-fluid mx-auto d-block" width="130" />
+    </a>
+  </div>
+
+  <!-- Web Tools Section -->
+  <div class="sidebar-section text-start">
+    <h6 class="text-uppercase text-muted mb-2">Web Tools</h6>
     <hr class="sidebar-divider my-2" />
     <ul class="list-unstyled">
+      <li><a href="/index.php">Home</a></li>
       <li><a href="/tools/web-tools/url-encoder.php">URL Encode</a></li>
       <li><a href="/tools/web-tools/url-decoder.php">URL Decode</a></li>
       <li><a href="/tools/web-tools/url-parse.php">URL Parse</a></li>
@@ -37,4 +47,15 @@
       <li><a href="/tools/web-tools/idn-decode.php">IDN Decode</a></li>
     </ul>
   </div>
+
+  <!-- Conversion Tools Section -->
+  <div class="sidebar-section text-start">
+    <h6 class="text-uppercase text-muted mb-2">Conversion Tools</h6>
+    <hr class="sidebar-divider my-2" />
+    <ul class="list-unstyled">
+      <li><a href="/tools/conversion-tools/xml-to-json.php">Convert XML to JSON</a></li>
+      <li><a href="/tools/conversion-tools/json-to-xml.php">Convert JSON to XML</a></li>       
+    </ul>
+  </div>
+
 </aside>
